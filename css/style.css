@@ -1,0 +1,331 @@
+/* USING ICOMOON */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?886kk8');
+    src:  url('../fonts/icomoon.eot?886kk8#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?886kk8') format('truetype'),
+      url('../fonts/icomoon.woff?886kk8') format('woff'),
+      url('../fonts/icomoon.svg?886kk8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-envelope:before {
+    content: "\e900";
+  }
+  .icon-twitter-old:before {
+    content: "\e901";
+  }
+  .icon-social:before {
+    content: "\e901";
+  }
+  .icon-search:before {
+    content: "\e902";
+  }
+  .icon-skype:before {
+    content: "\e903";
+  }
+  .icon-linkedin:before {
+    content: "\e904";
+  }
+  .icon-shopping-cart:before {
+    content: "\e905";
+  }
+  .icon-flickr:before {
+    content: "\e906";
+  }
+  .icon-brand:before {
+    content: "\e906";
+  }
+  .icon-social1:before {
+    content: "\e906";
+  }
+  .icon-feed:before {
+    content: "\e907";
+  }
+  .icon-rss:before {
+    content: "\e907";
+  }
+  .icon-social2:before {
+    content: "\e907";
+  }
+  .icon-facebook:before {
+    content: "\e908";
+  }
+  .icon-brand1:before {
+    content: "\e908";
+  }
+  .icon-social3:before {
+    content: "\e908";
+  }
+  .icon-thumb_up_off_alt:before {
+    content: "\e909";
+  }
+  .icon-keyboard_arrow_right:before {
+    content: "\e90a";
+  }
+  .icon-keyboard_arrow_left:before {
+    content: "\e90b";
+  }
+  .icon-check:before {
+    content: "\e90c";
+  }
+  .icon-person:before {
+    content: "\e90d";
+  }
+  .icon-edit:before {
+    content: "\e90e";
+  }
+  
+/* END ICOMOON */
+
+.row {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #525252;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.sec2 p, .sec4 p, .sellers p {
+    color:gray;
+}
+
+
+.top-header {
+    background-color: #d0d3d2;
+    border-top: 2px solid #29bcc8;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-nav{
+    float: left;
+
+}
+
+.top-nav .nav-link {
+    color: gray;
+}
+
+.top-nav .nav-link:hover {
+    color:black;
+}
+
+.welcome {
+    margin-top: 10px;
+}
+
+.welcome a {
+    color: #29bcc8;
+}
+
+.content1 {
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.search {
+    padding-top: 5px;
+    
+}
+
+.content2 a{
+    color:#29bcc8;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    
+}
+.content2 a:hover {
+    color:black;
+}
+.slidec {
+    background: rgb(240,241,240);
+    background: radial-gradient(circle, rgba(240,241,240,1) 0%, rgba(230,230,230,1) 35%, rgba(208,211,212,1) 100%);
+}
+.imgc {
+    margin-left: 300px;
+}
+
+.car1 {
+    
+    margin-bottom: 200px;
+    width: 450px;
+    height: 300px;
+    float:right;
+    text-align: left;
+    color: black;
+}
+
+h5 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.banner {
+    width: 300px;
+}
+
+.content3 {
+    width: 300px;
+    
+}
+
+.content3 p, .content3 button {
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.latest {
+    width: 200px;
+    margin: 20px;
+}
+
+.content4 {
+    padding-top: 20px;
+}
+
+.content5 {
+    width: 300px;
+}
+
+.content5 p, .content5 button {
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.best {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.brand {
+    padding-left: 70px;
+}
+.brand-logo {
+    float: right;
+    width: 140px;
+}
+
+.sec7 {
+    background-color: #d4d6d8;
+}
+
+.sign h3 {
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.email {
+    border: 2px solid yellow;
+    padding-right: 5px;
+}
+
+.content6 {
+    padding-top: 20px;
+}
+
+.content3 button, .content5 button, .content6 button {
+    background-color: #464c4f;
+    color: white;
+    border: 2px black;
+    border-radius: 10px;
+}
+
+footer h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.footer {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.footersec a{
+    color: white;
+}
+
+.footersec a:hover {
+    color:#29bcc8;
+}
+.footersec {
+    background-color:#424b4d;
+}
+
+.footercontent {
+    padding-top: 50px;
+}
+
+.four img {
+    width: 90px;
+}
+
+.icon1 {
+    float:left;
+    font-size: 20px;
+    padding-right: 4px;
+}
+
+.icon2 {
+    font-size: 30px;
+    background-color: gray;
+}
+.footersec2 {
+    background-color: #424b4d;
+}
+.footerb {
+    float: right;
+    font-size: 15px;
+}
+
+.sec2 h2, .sec5 h2 {
+    border-left: 4px solid #29bcc8;
+    padding: 5px
+}
+
+.sec1 {
+    padding-top: 10px;
+}
+
+.footersec2 span {
+    color: white;
+}
+
+.icons {
+    padding-top: 20px;
+}
+.icon3 {
+    font-size: 40px;
+    background-color: #d0d3d2;
+    color: gray;
+}
+
+.icon3:hover {
+    background-color: #29bcc8;
+}
